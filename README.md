@@ -11,8 +11,11 @@ POST http://127.0.0.1:8000/api-token-auth/ с полями username и password 
 далее в Header указываем Authorization: Token *и сам токен через пробел*
 
 GET http://127.0.0.1:8000/api/doctors/ - выводится список доступных докторов
+
 GET http://127.0.0.1:8000/api/appointments/ - список записей пользователя
+
 POST http://127.0.0.1:8000/api/appointments/ с телом таким например:
+
 {
   "doctor": 1,
   "date": "2025-04-29",
